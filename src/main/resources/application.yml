@@ -2,10 +2,11 @@ spring:
   application:
     name: EmpApi
   datasource:
-    url: jdbc:mysql://localhost:3306/spr430
-    username: root
-    password: samsher
-    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:postgresql://dpg-d2a45sh5pdvs73abtckg-a.oregon-postgres.render.com:5432/dbms_4kbx
+    username: dbms_4kbx_user
+    password: epZOAMlJCifQzjLRy1YA9HYX5IJubiVk
+    driver-class-name: org.postgresql.Driver
+
   jpa:
     hibernate:
       ddl-auto: update
