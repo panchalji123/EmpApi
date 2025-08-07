@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: EmpApi
+  datasource:
+    url: jdbc:mysql://localhost:3306/spr430
+    username: root
+    password: samsher
+    driver-class-name: com.mysql.jdbc.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+server:
+  port: 8082
+
+  
